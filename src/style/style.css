@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e5e5e5;
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    display: block;
+    margin: 30px auto;
+    width: 550px;
+    height: 853px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    height: 70px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    padding: 22px 30px;
+}
+
+section {
+    padding: 0 36px;
+}
+
+.grid-images img {
+    display: block;
+    margin: 26px auto;
+    width: 396px;
+    height: 232px;
+}
+
+.some-text h1 {
+    font-weight: 600;
+    margin-bottom: 16px;
+    line-height: 110%;
+}
+
+.some-text p {
+    max-width: 320px;
+    font-weight: 300;
+    color: #222;
+    line-height: 110%;
+}
+
+.sells {
+    margin-top: 49px;
+    display: flex;
+}
+
+.sells div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 18px;
+}
+
+.sells .capa {
+    width: 176px;
+    height: 235px;
+}
+
+.avaliation-envolver{
+    display: flex;
+    width: 100%;
+    background-color: aqua;
+}
+
+.star {
+    width: 14px;
+}
+
+.avaliation-envolver span{
+    font-weight: 300;
+    font-size: 12px;
+}
