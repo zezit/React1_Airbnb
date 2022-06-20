@@ -10,6 +10,7 @@ body {
 }
 
 main {
+    overflow: hidden;
     display: block;
     margin: 30px auto;
     width: 550px;
@@ -52,12 +53,11 @@ section {
 .sells {
     margin-top: 49px;
     display: flex;
+    position: relative;
 }
 
 .sells div {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    display: block;
     margin-right: 18px;
 }
 
@@ -66,17 +66,58 @@ section {
     height: 235px;
 }
 
-.avaliation-envolver{
+.state {
+    display: none;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    background-color: #ffffff;
+    width: 61px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 110%;
+    color: #222;
+    border-radius: 2px;
+}
+
+.information-container {
+    margin-top: 9px;
+}
+
+.avaliation-envolver {
     display: flex;
     width: 100%;
-    background-color: aqua;
 }
 
 .star {
     width: 14px;
+    margin-right: 2px;
 }
 
-.avaliation-envolver span{
+.avaliation-envolver span {
     font-weight: 300;
     font-size: 12px;
+    margin-right: 2px;
+    line-height: 110%;
+}
+
+.avaliation {
+    color: #222;
+}
+
+.other-info {
+    color: #918e9b;
+}
+
+.sells div p {
+    margin: 8px 0;
+    font-size: 12px;
+    font-weight: 300;
+    color: #222;
+}
+
+.sells div p strong {
+    font-weight: 600;
 }
