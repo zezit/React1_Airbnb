@@ -1,1 +1,1 @@
-# React1_Airbnb
+# React Section 1 Solo Project - Airbnb
